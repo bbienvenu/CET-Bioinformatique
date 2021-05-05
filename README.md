@@ -1,9 +1,6 @@
 # CET-Bioinformatique
 
-<p align="justify">
-  
-  ## Projet individuel 
-</p>
+  ## <center> Projet individuel </center>
   
 <p align="justify">
   
