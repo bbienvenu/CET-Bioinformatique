@@ -14,7 +14,7 @@ On essaiera de suivre la démarche suivante :
 - construction du graphe des chemins optimaux : 
 
 Chaque case de la matrice peut être décrite par un couple d’entiers (i,j) où i et j sont les indices de la ligne et de la colonne de la matrice contenant cette case.
-Si m et n désignent la longueur des deux séquences, la matrice a une taille $ (m+1) \times (n+1) $. En allant de la case d’indice (m,n) à la case d’indice (0,0), on peut construire 
+Si m et n désignent la longueur des deux séquences, la matrice a une taille (m+1)x(n+1). En allant de la case d’indice (m,n) à la case d’indice (0,0), on peut construire 
 un graphe des cases décrivant l’ensemble des chemins optimaux. Chaque case sera représentée par un nœud ayant pour fils le ou les nœud(s) représentant la ou les case(s) 
 voisine(s) ayant permis d’obtenir le score optimal de cette case. Le graphe obtenu pour l’exemple précédent est présenté ci-contre. 
 Ce graphe peut être construit récursivement en partant de la case d’indice (m,n).
