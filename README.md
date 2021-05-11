@@ -21,16 +21,7 @@ Ce graphe peut être construit récursivement en partant de la case d’indice (
 
 - détermination de tous les chemins optimaux :
 
-En parcourant le graphe des chemins optimaux, chaque chemin optimal peut être déterminé. La liste des chemins optimaux dans l’exemple précédent est la suivante :
-
-```
-(0, 0), (1, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 6), (7, 6), (8, 7), (9, 8)
-(0, 0), (1, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 6), (7, 7), (8, 7), (9, 8)
-(0, 0), (1, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 7), (8, 7), (9, 8)
-(0, 0), (1, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 6), (7, 7), (8, 8), (9, 8)
-(0, 0), (1, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 7), (8, 8), (9, 8)
-(0, 0), (1, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 8), (9, 8)
-```
+En parcourant le graphe des chemins optimaux, chaque chemin optimal peut être déterminé. 
 
 Cette liste peut être construite récursivement à partir du graphe.
 
